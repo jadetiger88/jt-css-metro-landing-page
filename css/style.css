@@ -1,0 +1,132 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	background-color: #000;
+	max-width: 1000px;
+	min-width: 300px;
+	margin: 0 auto;
+}
+
+.tile {
+	height: 200px;
+	width: 200px;
+	margin: 10px;
+	padding: 10px;
+	background-color: DarkGrey;
+	/* add code to do the gradient */ 
+	background: -moz-linear-gradient(top, DarkGrey 0%, LightGrey 100%);
+	background: -webkit-linear-gradient(top, DarkGrey 0%, LightGrey 100%);
+	background: -ms-linear-gradient(top, DarkGrey 0%, LightGrey 100%);
+	background: -o-linear-gradient(top, DarkGrey 0%, LightGrey 100%);
+	background: linear-gradient(top, DarkGrey 0%, LightGrey 100%);
+
+	float: left;
+}
+
+.double_width {
+	width: 440px;
+}
+
+#chart {
+	background: DarkMagenta;
+	background: -moz-linear-gradient(top, DarkMagenta 0%, Magenta 100%);
+	background: -webkit-linear-gradient(top, DarkMagenta 0%, Magenta 100%);
+	background: -ms-linear-gradient(top, DarkMagenta 0%, Magenta 100%);
+	background: -o-linear-gradient(top, DarkMagenta 0%, Magenta 100%);
+	background: linear-gradient(top, DarkMagenta 0%, Magenta 100%);
+}
+#chart img {
+	width: 80%;
+	background-color: red;
+}
+
+#chart p {
+	float: right;
+	font-size: 38px;
+	font-weight: bold;
+}
+
+#interview {
+	background: blue; 
+	background: -moz-linear-gradient(top, #5C82F7 0%, #D2DCFA 100%);
+	background: -webkit-linear-gradient(top, #5C82F7 0%, #D2DCFA 100%);
+	background: -ms-linear-gradient(top, #5C82F7 0%, #D2DCFA 100%);
+	background: -o-linear-gradient(top, #5C82F7 0%, #D2DCFA 100%);
+	background: linear-gradient(top, #5C82F7 0%, #D2DCFA 100%);
+}
+
+#interview span {
+	font-size: 50px;
+}
+
+#interview .title {
+	text-align: center;
+}
+
+#interview .time {
+	text-align: right;
+	padding-right: 30px;
+}
+
+#interview .date {
+	text-align: right;
+	padding-right: 30px;
+	margin-top: 50px;
+}
+
+#to_do {
+	background: pink; 
+	background: -moz-linear-gradient(top, HotPink 0%, LightPink 100%);
+	background: -webkit-linear-gradient(top, HotPink 0%, LightPink 100%);
+	background: -ms-linear-gradient(top, HotPink 0%, LightPink 100%);
+	background: -o-linear-gradient(top, HotPink 0%, LightPink 100%);
+	background: linear-gradient(top, HotPink 0%, LightPink 100%);
+}
+
+#pizza {
+	background: green;
+	background: -moz-linear-gradient(top, DarkGreen 0%, LightGreen 100%);
+	background: -webkit-linear-gradient(top, DarkGreen 0%, LightGreen 100%);
+	background: -ms-linear-gradient(top, DarkGreen 0%, LightGreen 100%);
+	background: -o-linear-gradient(top, DarkGreen 0%, LightGreen 100%);
+	background: linear-gradient(top, DarkGreen 0%, LightGreen 100%);
+}
+#pizza form div {
+	padding: 3px 0;
+}
+
+#user_table {
+	background: DarkOrange;	
+	background: -moz-linear-gradient(top, DarkOrange 0%, Orange 100%);
+	background: -webkit-linear-gradient(top, DarkOrange 0%, Orange 100%);
+	background: -ms-linear-gradient(top, DarkOrange 0%, Orange 100%);
+	background: -o-linear-gradient(top, DarkOrange 0%, Orange 100%);
+	background: linear-gradient(top, DarkOrange 0%, Orange 100%);
+}
+
+#user_table table {
+	margin: 10px auto;
+	font-weight: normal;
+	width: 100%;
+
+}
+#user_table th {
+	text-align: center;
+	border-bottom: 3px solid black;
+	padding-bottom: 0;
+	margin: 0;
+	padding-bottom: 1px;
+	margin-bottom: 2px;
+}
+
+#user_table td {
+	text-align: center;
+}
+
+#shanghai {
+	background: url(../img/shanghai.jpeg) no-repeat;
+	background-size: 220px 220px;
+}
